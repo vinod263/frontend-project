@@ -1,0 +1,105 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#nav{ 
+    padding: 15px 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+#nav a {
+    color: black;
+    font-size: 25px;
+    margin-right: 50px;
+    text-decoration: none;
+
+}
+
+#main>#head>h1{
+    font-size: 250px;
+    padding-left: 300px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 2;
+}
+
+#btmleft{
+    width: 250px;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+
+
+
+}
+#btmleft h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#btmleft p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#btmleft h4{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#bootombar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 70px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#bootombar a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+img{ 
+   width: 200px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+#first{
+    
+  left :33%;
+    bottom: 10%;
+    z-index: 1;
+    
+}
+#second{
+    left :53%;
+    bottom: 10%;
+}
+
+#third{
+    left: 43%;
+    bottom: 25%;
+
+}
